@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--css & icon & fonts-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+  integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Yeon+Sung&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Ghibli.css" type="text/css">
+
+  <title> Recomendation for you this film </title>
+
+  </head>
+
+  <body bgcolor="#f7ef81" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+
+    <!-- (1) 로고 및 제목 -->
+    <header>
+  </br></br>
+  <a href= "index.html"><img id="gotop" src="img/Logo.png" width="150" height="180"></a>
+  <h1> The Best Of Studio Ghibli Films </h1>
+</header>
+
+
+    <!-- (2) 메뉴바 -->
+    <nav id = "topMenu">
+      <ul>
+          <li><a class="menuLink" href="Ghibli_Intro.html"><span bubble-text="지브리 스튜디오에 대한 소개 페이지"> About Ghibli </span></a></li>
+           <li><a class="menuLink" href="Ghibli_Films.html"><span bubble-text="지브리의 대표 영화를 소개해주는 페이지"> Major Films </span></a></li>
+           <li><a class="menuLink" href="Ghibli_Test.html"><span bubble-text="내가 좋아할만한 지브리 영화는?">Recomendation</span></a></li>
+      </ul>
+    </nav>
+
+
+    <!-- (3) 테스트 입력 폼 창-->
+    <main>
+    </br></br></br></br></br></br>
+    <table frame=void
+    style="
+    width: 1000px;
+    height: 500px;
+    background-color: #fcf9c7;
+    margin-left: auto;
+    margin-right: auto;" background="img/Totoro_back.png">
+      <td>
+      </br>
+
+      <p><font size="7"><strong>Q & A</strong></font></p>
+    </br>
+        <center><article>
+          <p><font size="6"> Q1. 당신이 평소 선호하는 영화 장르는 무엇인가요? (다중선택 가능)</p></font>
+          <label><input type="checkbox" name="genre" value="Q1_1">액션</font></label> &nbsp;&nbsp;
+          <label><input type="checkbox" name="genre" value="Q1_2"> 로맨스/멜로</label>&nbsp;&nbsp;
+          <label><input type="checkbox" name="genre" value="Q1_3"> 드라마</label>&nbsp;&nbsp;
+          <label><input type="checkbox" name="genre" value="Q1_4"> SF/판타지</label>&nbsp;&nbsp;
+          <label><input type="checkbox" name="genre" value="Q1_5"> 기타</label>
+        </br></br></br>
+          <p><font size="6"> Q2. 당신에게 다시 환생할 수 있는 기회가 주어진다면, 무엇으로 태어나고 싶나요?</p></font>
+          <label><input type="radio" name="select1" value="Q2_1">동물</label>&nbsp;&nbsp;
+          <label><input type="radio" name="select1" value="Q2_2">사람</label>&nbsp;&nbsp;
+          <label><input type="radio" name="select1" value="Q2_3">자연</label>&nbsp;&nbsp;
+          <label><input type="radio" name="select1" value="Q2_4">길 가의 돌멩이</label>
+        </br></br></br>
+          <p><font size="6"> Q3. 당신은 이(異)세계를 동경하여, 간혹 그 곳으로 가는 상상을 하곤 하나요?</p></font>
+          <label><input type="radio" name="select2" value="Q3_1">네</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select2" value="Q3_2">아니오</label>
+        </br></br></br>
+          <p><font size="6"> Q4. 기분이 좋지 않은 날, 당신은 아름다운 음악을 듣곤 하나요?</p></font>
+          <label><input type="radio" name="select3" value="Q4_1">네</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select3" value="Q4_2">아니오</label>
+        </br></br></br>
+          <p><font size="6"> Q5. 다음 중, 당신이 가장 중요하게 생각하는 가치는 무엇인가요?</p></font>
+          <label><input type="radio" name="select4" value="Q5_1">외모</label>&nbsp;&nbsp;
+          <label><input type="radio" name="select4" value="Q5_2">지위</label>&nbsp;&nbsp;
+          <label><input type="radio" name="select4" value="Q5_3">자아실현</label>
+        </br></br></br>
+          <p><font size="6"> Q6. 당신은 워커홀릭인가요?</p></font>
+          <label><input type="radio" name="select5" value="Q6_1">네</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select5" value="Q6_2">아니오</label>
+        </br></br></br>
+          <p><font size="6"> Q7. 당신이 가장 미안해야하는 대상은 무엇인가요?</p></font>
+          <label><input type="radio" name="select6" value="Q7_1">지구</label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select6" value="Q7_2">타인</label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select6" value="Q7_3">나 자신</label>
+        </br></br></br>
+          <p><font size="6"> Q8. 당신이 생각했을 때, 현재 상황을 바꾸기 위해 둘 중 더 중요한 것은?</p></font>
+          <label><input type="radio" name="select7" value="Q8_1">사회의 구조</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select7" value="Q8_2">개인의 의지</label>
+        </br></br></br>
+          <p><font size="6"> Q9. 당신은 어른의 세계보단, 아이들의 동심이 부러운가요?</p></font>
+          <label><input type="radio" name="select8" value="Q6_1">네</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select8" value="Q6_2">아니오</label>
+        </br></br></br>
+          <p><font size="6"> Q10. 당신은 영화를 볼 때에 무엇을 더 눈여겨 보나요?</p></font>
+          <label><input type="radio" name="select9" value="10_1">환상적인 장면연출</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input type="radio" name="select9" value="10_2">마음을 울리는 OST</label>
+        </br></br></br>
+          <input type="button" value='완료' onClick="location.href='Ghibli_Test_Value.html'"></font></p></br>
+        </center>
+       </br></br>
+          </td>
+    </table>
+  <p><font size="2" color="red">※ php파일을 연동해도, DB구축을 할 수 없어 임의로 한 값만 나오게 설정 되어 있습니다.</p>
+</article></main>
+
+    <!--맨 위로 이동-->
+    <footer>
+      </br></br></br>
+      <a href=#gotop><img src="img/Jiji.png" width="60" height="70"></a>
+      <p><font size="2px">top↑</font></p>
+      </br></br></br>
+
+    <!--저작권 표사-->
+    <p><font size="3px">ⓒ 2020. MinJiShin_WebAssignment All Rights Reserved.</font></p>
+  </footer>
+    </body>
+
+    </html>

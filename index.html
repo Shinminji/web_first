@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--css link-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+  integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Yeon+Sung&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Ghibli.css" type="text/css">
+
+  <title> The Best Of Studio Ghibli Films For You ! </title>
+
+</head>
+
+<body onload="display_time()" bgcolor="#f7ef81" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<div id ="now_time"></div>
+<!-- (1) 로고 및 제목 -->
+<header>
+</br></br>
+
+<a href= "index.html"><img src="img/Logo.png" width="150" height="180"></a>
+<h1> The Best Of Studio Ghibli Films </h1>
+<p><font color="red">※본 웹사이트는 Crome에 최적화 되어 있습니다.</font></p>
+</header>
+
+<!-- (2) 메뉴바 -->
+<nav id = "topMenu">
+  <ul>
+      <li><a class="menuLink" href="Ghibli_Intro.html"><span bubble-text="지브리 스튜디오에 대한 소개 페이지"> About Ghibli </span></a></li>
+       <li><a class="menuLink" href="Ghibli_Films.html"><span bubble-text="지브리의 대표 영화를 소개해주는 페이지"> Major Films </span></a></li>
+       <li><a class="menuLink" href="Ghibli_Test.html"><span bubble-text="내가 좋아할만한 지브리 영화는?">Recomendation</span></a></li>
+  </ul>
+</nav>
+
+<!--(3) 인트로 사진 -->
+<main>
+<section>
+</br></br></br></br></br>
+  <div class = "Ghibli-Container">
+      <i class="fas fa-arrow-left" id="prev8tn"></i>
+      <i class="fas fa-arrow-right" id="next8tn"></i>
+    <div class="Ghibli-slide">
+      <img src = "img/Lapu_main.jpg" id="lastClone" width="1000" height="500">
+      <!--나중에 이걸로 바꾸기 <img src = "img/Contry.JPG" id="lastClone" width="1000" height="500">-->
+      <img src = "img/Lapu_main.jpg" width="1000" height="500">
+      <img src = "img/Sen_main.jpg" width="1000" height="500">
+      <img src = "img/Monono_main.jpg" width="1000" height="500">
+      <img src = "img/Totoro_main.jpg" width="1000" height="500">
+      <img src = "img/Kiki_main.jpg" width="1000" height="500">
+      <img src = "img/Haul_main.jpg" width="1000" height="500">
+      <img src = "img/Contry.JPG" width="1000" height="500">
+      <img src = "img/Lapu_main.jpg" id =" firstClone" width="1000" height="500">
+    </div>
+  </div>
+  <p>▲ 화살표를 누르면 이미지가 넘어갑니다.</p>
+</br></br></br></br>
+
+<!--(6) 배경 음악-->
+<center><audio autoplay controls> <source src="backmusic.mp3" type="audio/mp3"> </audio></center>
+</br></br>
+
+<!--(5) 인트로 글귀 -->
+<article>
+  <p><font size = "50px">" 당신은 지브리 스튜디오의 어떤 영화를 좋아하세요? "</font></p>
+  <p><font size="5px" color="gray">#이웃집 토토로   　#하울의 움직이는 성　  #센과 치히로의 행방불명　  #벼랑 위의 포뇨</font></p>
+</br>
+</article>
+</section>
+
+
+</br></br></br></br>
+</main>
+
+<!--저작권 표사-->
+<footer>
+</br>
+<p><font size="3px">ⓒ 2020. MinJiShin_WebAssignment All Rights Reserved.</font></p></br>
+</footer>
+<!--js파일-->
+<script src="Ghibli.js"></script>
+</boby>
+
+</html>

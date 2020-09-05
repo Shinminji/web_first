@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Permanent Marker", cursive;}
+
+h2{
+  font-family: 'Yeon Sung', cursive;
+}
+
+p{
+  text-align: center;
+  font-family: 'Yeon Sung', cursive;
+  color: black;
+  font-style: strong;
+}
+
+img {display:block; margin:0px auto;}
+
+
+
+label{
+  font-family:'Yeon Sung', cursive;
+  font-size:20px;}
+
+  li{
+    font-family:'Yeon Sung', cursive;
+    color:gray;
+  }
+
+table{
+  font-family: 'Yeon Sung', cursive;
+}
+
+hr{
+  border-top: dashed #bbb;
+  width: 90%;
+}
+
+a:link { color: black; text-decoration: none;}
+
+a:visited { color: gray; text-decoration: none;}
+
+aside{
+    position: absolute;
+    position: fixed; /*고정요소*/
+    margin-bottom: 500;
+    margin-left: 1300px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+
+#now_time{
+  position: center;
+  font-family:  'Yeon Sung', cursive;
+  font-size: 18px;
+}
+
+/*타이틀 바 구성*/
+#topMenu {
+height: 30px;
+width: 1000px;
+padding: 0px;
+margin: auto;
+}
+
+
+#topMenu ul li {
+  width: auto;
+  list-style: none;
+  float: left;
+  color: white;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  background: #006600;
+}
+
+#topMenu .menuLink{
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive;
+
+}
+
+#topMenu .menuLink:hover {
+    background-color: #009900;
+}
+
+[bubble-text]:hover {
+  position: relative;
+}
+
+[bubble-text]:hover:after {
+  background-color: rgba(207, 206, 192, 0.5);
+  color:#006600 ;
+  font-size: 20px;
+  font-family: 'Yeon Sung', cursive;
+  content: attr(bubble-text);
+  margin-bottom: 10px;
+  top: 140%;
+  left: 10;
+  padding: 7px 12px;
+  position: absolute;
+  width: auto;
+  min-width: 276px;
+  max-width: 1000px;
+  word-wrap: break-word;
+  z-index: 9999;
+  display: block;
+}
+
+/* 타이틀 사진첩 구성 */
+.Ghibli-Container{
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.Ghibli-slide{
+  display: flex;
+  width: 100%
+  height: 500px;
+}
+
+#prev8tn{
+ position:absolute;
+ top:50%;
+ z-index: 10;
+ left: : 5%;
+ font-size: 50px;
+ color: white;
+ opacity: 0.7;
+ cursor: pointer;
+}
+
+#next8tn{
+ position:absolute;
+ top:50%;
+ z-index: 10;
+ right: 0%;
+ font-size: 50px;
+ color: white;
+ opacity: 0.7;
+ cursor: pointer;
+}
+
+/* 영화 소개 사이드 메뉴 구성*/
+#Films_list{
+   background-color: ;
+    margin-top: -200px;
+    margin-bottom: 10px;
+    border: 5px solid green;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+#Films_list li{
+   	list-style:none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#Films_list li a{color: black}
+#Films_list li a:hover{color: green}
